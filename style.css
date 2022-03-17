@@ -11,8 +11,8 @@ body {
 }
 
 h1 {
-  color: #909294;
-  font-size: 32px;
+  color: #DDDFD5;
+  font-size: 40px;
   font-family: 'Smooch Sans', sans-serif;
 }
 h2 {
@@ -28,6 +28,30 @@ a {
 
 a:hover {
   color: #252323;
+}
+
+#twitter:hover{
+  color:#1D9BF0;
+}
+
+#facebook:hover{
+  color:#1196F5;
+}
+
+#linkedin:hover{
+  color: #0A66C2;
+}
+
+#burger-link:hover i {
+  color: #A26A44;
+}
+
+#cut-circle {
+  background-color: #DDDFD5;
+  box-shadow: -1px 0 rgba(0,0,0,.1), 0 1px rgba(0,0,0,.1), 1px 0 rgba(0,0,0,.1), 0 -1px rgba(0,0,0,.1);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
 }
 
 .container {
@@ -71,6 +95,7 @@ a:hover {
 
 #profile-picture {
   width: 250px;
+  height: 250px;
 }
 
 @media (max-width: 960px) {
